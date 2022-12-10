@@ -57,6 +57,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</a>
 		</header>
 		
+		<script>
+                 function cart() {
+                 dataLayer.push ({
+                 'event' : 'event_cart',
+                 'varcart' : ''
+                 })
+                 alert("장바구니에 담겼습니다.");
+                 }   
+                </script>
+		
 	</head>
 	<body>
 		<div class="container">
@@ -110,8 +120,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</fieldset>
 			<div class="centered">
 				<input type="submit" value="주문하기">
-				<input type="reset" value="다시 작성">
+				<input type="reset" value="다시 작성"> <br>
+				<input type="submit" value="장바구니 담기">
 				</div>
 		</div>
+		
 	</body>
 </html>
