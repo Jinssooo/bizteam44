@@ -57,15 +57,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</a>
 		</header>
 		
-		<script>
-                 function cart() {
-                 dataLayer.push ({
-                 'event' : 'event_cart',
-                 'varcart' : ''
-                 })
-                 alert("장바구니에 담겼습니다.");
-                 }   
-                </script>
 		
 	</head>
 	<body>
@@ -122,6 +113,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<input type="submit" value="바로 주문">
 				<input type="reset" value="다시 작성"> <br>
 				<input type="submit" value="장바구니 담기">
+				
+				<script>
+                                   function cart() {
+                                   dataLayer.push ({
+                                   'event' : 'event_cart',
+                                   'varcart' : 'apple'
+                                    })
+                                   alert("장바구니에 담겼습니다.");
+                                    }   
+                                 </script>
 				</div>
 		</div>
 		
