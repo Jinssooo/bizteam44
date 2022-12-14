@@ -133,24 +133,24 @@ body {
 .경상남도지도 > button:hover span:nth-child(3){width: 100%;}
 .경상남도지도 > button:hover span:nth-child(4){height: 100%;}
 
-#거창{top: 140px; left: 350px;}
-#함양{top: 270px; left: 250px;}
-#산청{top: 360px; left: 350px;}
-#하동{top: 540px; left: 270px;}
-#사천{top: 550px; left: 400px;}
-#남해{top: 710px; left: 370px;}
-#고성{top: 550px; left: 510px;}
-#통영{top: 640px; left: 590px;}
-#거제{top: 660px; left: 690px;}
-#진주{top: 450px; left: 450px;}
-#합천{top: 290px; left: 440px;}
-#의령{top: 340px; left: 510px;}
-#창녕{top: 290px; left: 640px;}
-#밀양{top: 270px; left: 760px;}
-#함안{top: 380px; left: 610px;}
-#창원{top: 440px; left: 690px;}
-#김해{top: 430px; left: 790px;}
-#양산{top: 350px; left: 880px;}
+#거창{top: 160px; left: 320px;}
+#함양{top: 290px; left: 220px;}
+#산청{top: 380px; left: 320px;}
+#하동{top: 560px; left: 240px;}
+#사천{top: 570px; left: 370px;}
+#남해{top: 730px; left: 340px;}
+#고성{top: 570px; left: 480px;}
+#통영{top: 660px; left: 560px;}
+#거제{top: 680px; left: 660px;}
+#진주{top: 470px; left: 420px;}
+#합천{top: 310px; left: 410px;}
+#의령{top: 360px; left: 480px;}
+#창녕{top: 310px; left: 610px;}
+#밀양{top: 290px; left: 730px;}
+#함안{top: 400px; left: 580px;}
+#창원{top: 460px; left: 660px;}
+#김해{top: 450px; left: 760px;}
+#양산{top: 370px; left: 850px;}
 
 .label_content{
     position: absolute;
